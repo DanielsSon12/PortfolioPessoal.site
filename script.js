@@ -64,3 +64,20 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.imgSobreMim').src = savedProfileImage;
   }
 });
+
+//Botão para mostrar temas
+document.addEventListener("DOMContentLoaded", function (){
+  const btnOpen = document.querySelector('.btn-openTemas');
+  const sectionThemes = document.querySelector('.section_changeCSS');
+
+  btnOpen.addEventListener('click', function() {
+  
+    if(sectionThemes.style.opacity === "0" || sectionThemes.style.opacity === ""){
+      sectionThemes.style.opacity = "1";
+      sectionThemes.classList.toggle('active');
+    }else {
+      sectionThemes.style.opacity = "0";
+    }
+  });
+})
+

@@ -79,6 +79,7 @@ header {
 nav {
     background-color: rgb(19, 19, 19);
     border-bottom: 2px solid rgb(0, 238, 255);
+    box-shadow: 0px 0px 15px rgb(0, 238, 255);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,6 +93,7 @@ nav {
 /*__Logo__*/
 .div_logo > h2 {
     font-size: 2.1rem;
+    letter-spacing: 0.2rem;
     color: whitesmoke;
 }
 
@@ -126,10 +128,9 @@ nav {
 }
 
 .div_opcoesMenu > li > a:hover {
-    background-image: linear-gradient(to right, transparent 50%, rgb(0, 174, 255) 50%);
+    background-image: linear-gradient(to right, transparent 50%, rgba(31, 31, 31, 0.801) 50%);
     background-size: 200%;
-    background-position: -100%;
-    color: rgb(27, 27, 27);
+    background-position: -100%; 
     border-radius: 200px;
 }
 
@@ -151,12 +152,42 @@ nav {
     opacity: 1;
 }
 
+/*__Botão para mostrar os temas__*/
+.section-openTemas {
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-openTemas {
+    padding: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    background-color: rgb(19, 19, 19);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(0, 238, 255);
+    color: rgb(236, 236, 236);
+    transition: all 0.5s;
+    border: none;
+}
+
+.btn-openTemas:hover {
+    box-shadow: 1px 1px 10px rgb(0, 238, 255);
+    transform: scale(1.05);
+}
+
 /*__Botões de troca de tema__*/
 .section_changeCSS {
+    opacity: 0;
     padding: 20px;
     background-color: rgb(27, 27, 27);
-    border-bottom: 2px solid rgb(0, 238, 255);
-    box-shadow: 0px 0px 10px rgb(0, 238, 255);
+    border-bottom: 3px solid rgb(0, 238, 255);
+    transition: all 0.4s;
+}
+
+.section_changeCSS.active{
+    opacity: 1;
 }
 
 .div_changeCSS {
@@ -165,7 +196,7 @@ nav {
 
 .div_changeCSS > button {
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 0.8rem;
     border: none;
     padding: 4px;
@@ -233,7 +264,7 @@ nav {
 }
 
 .div_sobreMim {
-    padding: 128px;/*128px = 8rem*/
+    padding: 10px;
 }
 
 /*__borda__*/
@@ -246,11 +277,15 @@ nav {
     animation: animationMoveToRight 1.7s ease-out;
 }
 
+.div_imgSobreMim {
+    margin-top: 10%;
+}
+
 /*__imagem__*/
 .div_imgSobreMim > img {
     max-width: 240px;/*240px = 15rem*/
     border-radius: 200px;
-    box-shadow: 1px 1px 27px rgb(0, 174, 255);
+    box-shadow: 1px 1px 17px rgb(0, 174, 255);
     transition: all 1.5s;
     animation: animationRotateImg 1.5s 1.3s;
 }
@@ -2338,6 +2373,10 @@ nav {
     .div_imgSobreMim {
         padding-top: 40px;
         margin: 0 auto;
+    }
+
+    .div_imgSobreMim {
+        margin-top: 5%;
     }
 
     .div_imgSobreMim > img {

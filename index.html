@@ -17,7 +17,7 @@
         <nav>
             <div class="div_logo">
                 <div class="bordaNome"></div>
-                <h2>Site Pessoal</h2>
+                <h2>Portfólio</h2>
             </div>
 
             <ul class="div_opcoesMenu">
@@ -49,12 +49,16 @@
         </nav>
     </header>
     <main>
+        <!-- Aba de troca de tema -->
+        <section class="section-openTemas">
+            <button class="btn-openTemas">Temas</button>
+        </section>
         <section class="section_changeCSS">
             <div class="div_changeCSS">
-                <button class="btn-normal" onclick="changeTheme('style.css', './imgSite/BoyIcon-removebg-preview.png')">Tema Branco</button>
-                <button class="btn-neonAzul" onclick="changeTheme('styleNEONazul.css', './imgSite/BoyIcon-removebg-preview.png')">Tema NeonBlue</button>
-                <button class="btn-neonVermelho" onclick="changeTheme('styleNEONvermelho.css', './imgSite/redPerfil.jpg')">Tema NeonRed</button>
-                <button class="btn-neonGreen" onclick="changeTheme('styleNEONverde.css', './imgSite/iconGreen1.jpg')">Tema NeonGreen</button>
+                <button class="btn-normal" onclick="changeTheme('style.css', './imgSite/IconPerfil.jpg')">Tema Branco</button>
+                <button class="btn-neonAzul" onclick="changeTheme('styleNEONazul.css', './imgSite/IconPerfil.jpg')">Tema NeonBlue</button>
+                <button class="btn-neonVermelho" onclick="changeTheme('styleNEONvermelho.css', './imgSite/IconPerfil.jpg')">Tema NeonRed</button>
+                <button class="btn-neonGreen" onclick="changeTheme('styleNEONverde.css', './imgSite/IconPerfil.jpg')">Tema NeonGreen</button>
             </div>
         </section>
 
@@ -63,11 +67,12 @@
             <div class="div_sobreMim">
                 <div class="div_bordaSobreMim">
                     <div class="div_imgSobreMim">
-                        <img class="imgSobreMim" src="./imgSite/BoyIcon-removebg-preview.png" alt="Error">
+                        <img class="imgSobreMim" src="./imgSite/IconPerfil.jpg" alt="Error">
                     </div>
                     <div class="div_textSobreMim">
                         <h2>Quem sou eu?</h2>
                         <p>Me chamo Daniel Ouverney da Silva Guimarães, tenho 19 anos e estudei no CEFET-RJ de Nova Friburgo cursando o Curso Técnico Integrado de Informática do Ensino Médio.
+                            Atualmente continuo estudando no CEFET, porém cursando a faculdade de Bacharelado em Sistemas de Informação, dei inicio aos estudos da faculdade no segundo semestre de 2025.
                             Desde o início na área da programação tive uma apreciação pela Front-End, isso se da ao fato de eu sempre ter tido paixão por desenhos e pinturas minha vida toda. 
                             No curso de informática do CEFET eu juntei, aprimorei e continuo aprimorando minhas habilidades no que se diz respeito a Front-End. Esse Portfólio serve como um teste 
                             que fiz para mim mesmo, continuarei fazendo esses testes, e eles ficarão na parte de PROJETOS do Portfólio.
@@ -114,21 +119,21 @@
                     <h4>PHP</h4>
                     <p>Básico</p>
                 </div>
-                <div>
+                <!-- <div>
                     <img src="./imgSite/word.png" alt="Error">
                     <h4>Word</h4>
                     <p>Avançado</p>
-                </div>
+                </div> -->
                 <div>
                     <img src="./imgSite/excel.png" alt="Error">
                     <h4>Excel</h4>
                     <p>Intermediário</p>
                 </div>
-                <div>
+                <!-- <div>
                     <img src="./imgSite/power-point.png" alt="Error">
                     <h4>PowerPoint</h4>
                     <p>Intermediário</p>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -138,10 +143,10 @@
                 <h4>Projetos</h4>
                 <p>Todo projeto foi e será feito com o intuito de aprimorar meu aprendizado.</p>
                 <ul>
-                    <li><a href="./Projetos/projeto_Inglaterra/index.html">Projeto Inglaterra (Pessoal)</a></li>
+                    <li><a href="./Projetos/projeto_Inglaterra/index.html">Projeto Inglaterra (Trabalho Ensino Médio)</a></li>
                     <li><a href="./Projetos/Sala do Empreendedor/index.html">Site Responsivo (Estágio Prefeitura)</a></li>
-                    <li><a href="./Projetos/ProjetoPokedex/index.html">Pokedex API</a></li>
-                    <li><a href="./Projetos/ProjetoÁgua/index.html">Água Necessária</a></li>
+                    <!-- <li><a href="./Projetos/ProjetoPokedex/index.html">Pokedex API</a></li> -->
+                    <!-- <li><a href="./Projetos/ProjetoÁgua/index.html">Água Necessária</a></li> -->
                 </ul>
             </div>
         </section>
@@ -152,8 +157,9 @@
             <div>
                 <div class="div_tituTextAtivInfo">
                     <h2>Atividades de Informática</h2>
-                    <p>Cada atividade é focada em uma linguagem de marcação, estilo e/ou programação.</p>
-                </div>
+                    <p>Cada atividade é focada em uma linguagem de marcação, estilo e/ou programação.<br>
+                       Todas as atividades foram feitas durante o ensino médio no CEFET e foram propostas pelos professores do curso.</p>
+                </div> 
                 <ul>
                     <li class="list CSS">
                         <div>
