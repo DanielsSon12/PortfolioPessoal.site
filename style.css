@@ -83,7 +83,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0.7rem;/*11.2px = 0.7rem*/
+    padding: 0.05rem;
 }
 
 .div_logo, .div_opcoesMenu, .div_redeSocial {
@@ -93,8 +93,16 @@ nav {
 /*__Logo__*/
 .div_logo > h2 {
     font-size: 2.1rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
     color: whitesmoke;
+    
+}
+
+.spanPessoal {
+    font-size: 1.2rem;
+    color: rgb(172, 171, 171);
+    letter-spacing: normal;
+    margin: -1px;
 }
 
 /*__Opções do Menu__*/
@@ -254,7 +262,7 @@ nav {
 
 /*_______Primeira Section (Sobre Mim)_______*/
 .section_sobreMim {
-    padding-top: 80px;/*80px = 5rem*/
+    padding-top: 110px;/*80px = 5rem*/
     padding-bottom: 160px;/*160px = 10rem*/
 }
 
@@ -644,6 +652,10 @@ nav {
         color: whitesmoke;
     }
 
+    .div_logo {
+        text-align: center;
+    }
+
     /*_______Primeira Section (Sobre Mim)_______*/
     .section_sobreMim {
         padding-top: 40px;
@@ -929,6 +941,10 @@ nav {
         color: whitesmoke;
     }
 
+    .div_logo {
+        text-align: center;
+    }
+
     /*_______Primeira Section (Sobre Mim)_______*/
     .section_sobreMim {
         padding-top: 40px;
@@ -1211,6 +1227,10 @@ nav {
     .div_logo > h2 {
         font-size: 1.5rem;
         color: whitesmoke;
+    }
+
+    .div_logo {
+        text-align: center;
     }
 
     /*_______Primeira Section (Sobre Mim)_______*/
