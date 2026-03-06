@@ -50,18 +50,19 @@ function changeTheme(themeName, profileImage) {
   localStorage.setItem('selectedTheme', themeName);
 
   //Sobre a foto de perfil
-  document.querySelector('.imgSobreMim').src = profileImage;
-  localStorage.setItem('selectedProfileImage', profileImage);
+  // document.querySelector('.imgSobreMim').src = profileImage;
+  // localStorage.setItem('selectedProfileImage', profileImage);
 }
 
 //Verifica se tem algum tema salvo no localStorage ao carregar a página
 document.addEventListener('DOMContentLoaded', function() {
   const savedTheme = localStorage.getItem('selectedTheme');
-  const savedProfileImage = localStorage.getItem('selectedProfileImage');
+  // const savedProfileImage = localStorage.getItem('selectedProfileImage');
 
-  if (savedTheme && savedProfileImage) {
+  // && savedProfileImage
+  if (savedTheme) {
     document.querySelector('.theme-css').href = savedTheme;
-    document.querySelector('.imgSobreMim').src = savedProfileImage;
+    // document.querySelector('.imgSobreMim').src = savedProfileImage;
   }
 });
 
