@@ -714,13 +714,13 @@ nav {
     .div_conhecimentos > div {
         border: 2px solid rgb(0, 155, 0);
         box-shadow: 1px 1px 10px rgb(0, 190, 0);
-        padding: 10px;
+        width: 25%;
+        height: auto;
         margin: 12px;
     }
 
     .div_conhecimentos > div > h4 {
-        font-size: 0.7rem;
-        margin-top: -8px;
+        font-size: 0.6rem;
     }
 
     .div_conhecimentos > div > p {
@@ -998,12 +998,13 @@ nav {
     .div_conhecimentos > div {
         border-top: 2px solid rgb(0, 155, 0);
         box-shadow: 1px 1px 10px rgb(0, 190, 0);
-        padding: 10px;
+        width: 25%;
+        height: auto;
         margin: 12px;
     }
 
     .div_conhecimentos > div > h4 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin-top: -8px;
     }
 
@@ -1012,7 +1013,7 @@ nav {
     }
 
     .div_conhecimentos > div > img {
-        max-width: 40px;
+        max-width: 35px;
         max-height: 40px;
         margin: 20px;
     }
@@ -1283,12 +1284,13 @@ nav {
     .div_conhecimentos > div {
         border-top: 3px solid rgb(0, 155, 0);
         box-shadow: 1px 1px 10px rgb(0, 190, 0);
-        padding: 11px;
+        width: 25%;
+        height: auto;
         margin: 15px;
     }
 
     .div_conhecimentos > div > h4 {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-top: -8px;
     }
 
@@ -1850,8 +1852,9 @@ nav {
 
     /*___Conhecimentos___*/
     .div_conhecimentos > div {
-        padding: 11px;
-        margin: 15px;
+        width: 25%;
+        height: auto;
+        margin: 10px;
     }
 
     .div_conhecimentos > div > h4 {
@@ -2132,7 +2135,8 @@ nav {
 
     /*___Conhecimentos___*/
     .div_conhecimentos > div {
-        padding: 11px;
+        width: 20%;
+        height: auto;
         margin: 15px;
     }
 
